@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    background-color: aqua;
+
+}
+.name{
+    height: 40px; 
+    width: 60%;
+}
+.surname{
+    height: 40px; 
+    width: 60%;
+}
+.fechas{
+    height: 40px; 
+    width: 60%;
+}
+.cedulas{
+    height: 40px; 
+    width: 60%;
+}
+.boton{
+    height: 40px; 
+    width: 60%;
+}
