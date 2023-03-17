@@ -3,32 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
-body,html{
+body{
     height: 100%;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.container{
+.general{
     height: 100%;
+    width: 100%px;
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
 }
 .name{
-    height: 40px; 
-    width: 60%;
+    height: 30px;
+    width: 70%;
+    border: 1 solid black;
 }
-.surname{
-    height: 40px; 
-    width: 60%;
+.cumpleaños{
+    display: grid;
+    grid-template-areas: 
+    'cumpleaños  pregunta'
+    'mensaje mensaje';
+    gap: 20px;
 }
-.fechas{
-    height: 40px; 
-    width: 60%;
+.nombre_apellido{
+    height: 100px;
+    width: 50%;
+    border: 1px solid black;
+    font-size: 20px;
+    grid-area: cumpleaños;
 }
-.cedulas{
-    height: 40px; 
-    width: 60%;
+h2{
+    font-size: 20px;
 }
-.boton{
-    height: 40px; 
-    width: 60%;
+.pregunta{
+    height: 100px;
+    width: 50%;
+    font-size: 20px;
+    border: 1px solid black;
+    grid-area: pregunta;
+}
+.mensaje{
+    height: 200px;
+    width: 600px;
+    border: 1px solid black;
+    grid-area: mensaje;
 }
